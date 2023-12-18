@@ -1,0 +1,8 @@
+export USER1_EMAIL="<USER_PLACEHOLDER>"
+export USER1_PASS="<PASSWORD_PLACEHOLDER>"
+# export TR_PROJECT_ID=""
+# export TR_SUITE_ID=""
+# export TR_SCENARIO_EXPORT=""
+# export TR_RESULTS_EXPORT="1"
+# export TR_LOGIN=""
+# export TR_TOKEN=""

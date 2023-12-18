@@ -1,0 +1,25 @@
+{
+  "name": "nxp-sso-automation",
+  "version": "1.0.0",
+  "description": "NXP-SSO automated tests",
+  "scripts": {
+    "test:chrome": "npx wdio configs/wdio.chrome.conf.js --cucumberOpts.tagExpression='@automated'",
+    "test:edge": "npx wdio configs/wdio.edge.conf.js --cucumberOpts.tagExpression='@automated'",
+    "test:firefox": "npx wdio configs/wdio.firefox.conf.js --cucumberOpts.tagExpression='@automated'",
+    "lint": "node node_modules/eslint/bin/eslint . --max-warnings=0",
+    "lint:fix": "node node_modules/eslint/bin/eslint . --fix"
+  },
+  "author": "Citeline",
+  "repository": "https://github.com/informa-pharma/nxp-sso-automation",
+  "license": "ISC",
+  "dependencies": {
+    "@informa/automation-framework": "^3.2.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.3",
+    "wdio-cucumber-parallel-execution": "^3.6.15"
+  },
+  "devDependencies": {
+    "chromedriver": ">=117.0.0",
+    "geckodriver": "^3.0.2"
+  }
+}

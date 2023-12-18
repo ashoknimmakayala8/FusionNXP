@@ -1,0 +1,17 @@
+# Test report
+reports
+
+# Optional eslint cache
+.eslintcache
+
+# Node.js modules
+node_modules
+
+# VSCode files
+debug.log
+.history
+.vscode
+.env
+.idea/
+.DS_Store
+*.bkp
