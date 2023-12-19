@@ -20,8 +20,10 @@ When(/^user logs in with '(.*)' credentials$/, async (user) => {
 
   await loginForm.enterEmailAddress(credentials[user].email);
   await loginForm.clickContinueButton();
+  await browser.pause(4000);
   await loginForm.enterPassword(credentials[user].password);
   return loginForm.clickLoginButton();
+  
 });
 
 
